@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="iTaKuTwitch — streamer, créateur vidéo et joueur. Retrouvez ses lives, vidéos, réseaux et actualités.">
+  <title>iTaKuTwitch — Streamer & Créateur</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="red-glow glow-a"></div>
+  <div class="red-glow glow-b"></div>
+
+  <header class="nav">
+    <a class="brand" href="#accueil" aria-label="Accueil iTaKuTwitch">
+      <span class="brand-mark">i</span><span>TaKu</span><small>Twitch</small>
+    </a>
+    <button class="menu-btn" aria-label="Ouvrir le menu">☰</button>
+    <nav>
+      <a href="#accueil">Accueil</a>
+      <a href="#apropos">À propos</a>
+      <a href="#stream">Stream</a>
+      <a href="#videos">Vidéos</a>
+      <a href="#reseaux">Réseaux</a>
+    </nav>
+    <a class="nav-cta" href="https://linktr.ee/itakutwitch" target="_blank" rel="noopener">Twitch ↗</a>
+  </header>
+
+  <main id="accueil">
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> CRÉATEUR • STREAMER • VIDÉASTE</div>
+        <h1>Bienvenue dans<br><em>l’univers iTaKu.</em></h1>
+        <p class="hero-text">
+          Retrouvez ici les lives, vidéos, projets et réseaux de <strong>iTaKuTwitch</strong>.
+          Un espace pensé pour centraliser tout ce qui se passe autour de la chaîne.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="https://www.twitch.tv/itakutwitch" target="_blank" rel="noopener">Regarder le stream <span>→</span></a>
+          <a class="btn ghost" href="#videos">Voir les vidéos</a>
+        </div>
+        <div class="mini-stats">
+          <div><strong>LIVE</strong><span>Twitch</span></div>
+          <div><strong>VIDEO</strong><span>YouTube</span></div>
+          <div><strong>SOCIAL</strong><span>Communauté</span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card">
+          <div class="scanline"></div>
+          <div class="avatar-placeholder">
+            <img src="ressources/itakutwitch_photo.png" alt="iTaKuTwitch">
+          </div>
+          <div class="hero-card-bottom">
+            <div><span class="live-dot"></span> iTaKuTwitch</div>
+            <span>ONLINE / OFFLINE</span>
+          </div>
+        </div>
+        <div class="floating-tag tag-one">SPEEDRUN</div>
+        <div class="floating-tag tag-two">CONTENT</div>
+      </div>
+    </section>
+
+    <section class="section about" id="apropos">
+      <div class="section-label">01 / À PROPOS</div>
+      <div class="section-heading">
+        <h2>Plus qu’un<br><span>stream.</span></h2>
+        <p>
+          Depuis 2021, iTaKu est un créateur originaire de Nancy qui mélange speedrun, streaming et création de contenu original.
+          Il a notamment participé à Speedons 4 et Speedons 5 en tant que Caster.
+          Le site sert de point d’entrée unique pour découvrir son univers et retrouver ses contenus.
+        </p>
+      </div>
+      <div class="about-grid">
+        <article class="info-card large">
+          <span class="card-number">01</span>
+          <h3>Création vidéo</h3>
+          <p>Des vidéos pensées pour raconter quelque chose, partager une expérience ou simplement proposer un bon moment.</p>
+        </article>
+        <article class="info-card">
+          <span class="card-number">02</span>
+          <h3>Live</h3>
+          <p>Retrouvez iTaKu en direct sur Twitch et rejoignez la communauté pendant les sessions.</p>
+        </article>
+        <article class="info-card">
+          <span class="card-number">03</span>
+          <h3>Speedrun & contenu original</h3>
+          <p>Le speedrun et la création de concepts originaux sont au cœur de son contenu, avec des projets pensés pour proposer des expériences différentes.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section stream-section" id="stream">
+      <div class="section-label">02 / STREAM</div>
+      <div class="stream-head">
+        <div>
+          <h2>Le <span>live</span></h2>
+          <p>Le point de rendez-vous de la communauté.</p>
+        </div>
+        <a class="btn primary" href="https://twitch.tv/itakutwitch" target="_blank" rel="noopener">Ouvrir Twitch ↗</a>
+      </div>
+      <div class="stream-panel">
+        <div class="stream-screen">
+          <div class="offline-badge"><span></span> TWITCH</div>
+          <iframe src="https://player.twitch.tv/?channel=itakutwitch&parent=itakutwitch.live" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+        </div>
+        <aside class="stream-info">
+          <div class="status"><span></span> STATUT DU STREAM</div>
+          <h3>Retrouve iTaKu en direct</h3>
+          <p>Cette zone est prête à accueillir le lecteur Twitch, le titre du live, le jeu en cours et les informations utiles.</p>
+          <div class="schedule">
+            <div><span>PROCHAIN LIVE</span><strong>À définir</strong></div>
+            <div><span>CHAÎNE</span><strong>@itakutwitch</strong></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section videos" id="videos">
+      <div class="section-label">03 / VIDÉOS</div>
+      <div class="section-heading">
+        <h2>À voir<br><span>et revoir.</span></h2>
+        <p>Une vitrine pour les meilleures vidéos, extraits, projets et moments forts.</p>
+      </div>
+      <div class="video-grid">
+        <a class="video-card featured" href="https://linktr.ee/itaku" target="_blank" rel="noopener">
+          <div class="thumb thumb-a"><span class="play">▶</span><small>YOUTUBE</small></div>
+          <div class="video-meta"><span>VIDÉO</span><h3>Les dernières vidéos d’iTaKu</h3><p>Retrouver la chaîne YouTube et les nouveaux contenus.</p></div>
+        </a>
+        <a class="video-card" href="https://linktr.ee/itaku" target="_blank" rel="noopener">
+          <div class="thumb thumb-b"><span class="play">▶</span><small>TWITCH</small></div>
+          <div class="video-meta"><span>LIVE</span><h3>Moments forts</h3><p>Clips, extraits et souvenirs de stream.</p></div>
+        </a>
+        <a class="video-card" href="https://linktr.ee/itaku" target="_blank" rel="noopener">
+          <div class="thumb thumb-c"><span class="play">▶</span><small>YOUTUBE</small></div>
+          <div class="video-meta"><span>PROJET</span><h3>À venir</h3><p>Un espace prêt pour les prochains projets vidéo.</p></div>
+        </a>
+      </div>
+    </section>
+
+    <section class="section social-section" id="reseaux">
+      <div class="section-label">04 / RÉSEAUX</div>
+      <div class="social-layout">
+        <div>
+          <h2>Reste<br><span>connecté.</span></h2>
+          <p>Retrouve tous les liens importants d’iTaKuTwitch au même endroit.</p>
+          <a class="btn primary" href="https://linktr.ee/itakutwitch" target="_blank" rel="noopener">Ouvrir le Linktree ↗</a>
+        </div>
+        <div class="social-list">
+          <a href="https://www.twitch.tv/itakutwitch" target="_blank" rel="noopener"><b>Twitch</b><span>@itakutwitch</span><i>↗</i></a>
+          <a href="https://www.youtube.com/@itakutwitch" target="_blank" rel="noopener"><b>YouTube</b><span>@itakutwitch</span><i>↗</i></a>
+          <a href="https://www.instagram.com/itakutwitch/" target="_blank" rel="noopener"><b>Instagram</b><span>@itakutwitch</span><i>↗</i></a>
+          <a href="https://www.tiktok.com/@itaku_twitch" target="_blank" rel="noopener"><b>TikTok</b><span>@itaku_twitch</span><i>↗</i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact">
+      <div class="contact-box">
+        <div>
+          <span class="section-label">05 / CONTACT</span>
+          <h2>Un projet ?<br><span>Parlons-en.</span></h2>
+        </div>
+        <div class="contact-right">
+          <p>Une collaboration, un projet vidéo ou une demande professionnelle ?</p>
+          <a class="btn primary" href="mailto:itaku.off@gmail.com" target="_blank" rel="noopener">Contact professionnel ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand"><span class="brand-mark">i</span><span>TaKu</span><small>Twitch</small></div>
+    <p>© <span id="year"></span> iTaKuTwitch — Tous droits réservés.</p>
+    <a href="#accueil">Retour en haut ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
