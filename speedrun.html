@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Les speedruns et casts de iTaKu : performances personnelles, événements et réalisations dans l'univers du speedrun.">
+  <title>iTaKu — Speedrun & Casts</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="red-glow glow-a"></div>
+  <div class="red-glow glow-b"></div>
+
+  <header class="nav">
+    <a class="brand" href="index.html#accueil">
+      <span class="brand-mark">i</span><span>TaKu</span><small>Twitch</small>
+    </a>
+
+    <nav>
+      <a href="index.html#accueil">Accueil</a>
+      <a href="index.html#apropos">À propos</a>
+      <a href="index.html#stream">Stream</a>
+      <a href="index.html#videos">Vidéos</a>
+      <a href="speedrun.html" class="active">Speedrun</a>
+      <a href="index.html#reseaux">Réseaux</a>
+    </nav>
+
+    <a class="nav-cta" href="https://www.twitch.tv/itakutwitch" target="_blank" rel="noopener">Twitch ↗</a>
+    <button class="menu-btn" aria-label="Ouvrir le menu">☰</button>
+  </header>
+
+  <main>
+    <section class="speed-hero">
+      <div>
+        <div class="eyebrow"><span class="pulse"></span> SPEEDRUN • CAST • ÉVÉNEMENTS</div>
+        <h1>La vitesse,<br><em>autrement.</em></h1>
+        <p>
+          Le speedrun comme performance, mais aussi comme spectacle.
+          Retrouvez ici mes Personal Best et les casts que j'ai réalisés sur différents événements.
+        </p>
+        <div class="speed-tabs">
+          <a href="#speedruns" class="btn primary">Mes speedruns ↓</a>
+          <a href="#casts" class="btn ghost">Mes casts ↓</a>
+        </div>
+      </div>
+      <div class="speed-hero-mark">
+        <div class="speed-mark-card">
+          <div class="speed-mark-avatar"><img src="ressources/speedrun-scene.jpg" alt="iTaKu sur scène" loading="lazy"><span>i</span></div>
+          <div class="speed-mark-bottom"><span>iTaKuTwitch</span></div>
+        </div>
+        <span class="speed-tag speed-tag-pb">PERSONAL BEST</span>
+        <span class="speed-tag speed-tag-cast">RUN / CAST</span>
+      </div>
+    </section>
+
+
+    
+
+    <section class="section speedrun-section" id="speedruns">
+      <div class="section-label">01 / MES SPEEDRUNS</div>
+      <div class="section-heading">
+        <h2>La chasse<br>aux <span>secondes.</span></h2>
+        <p>
+          Mes performances personnelles sur les jeux qui comptent dans mon parcours.
+          Plusieurs catégories peuvent être regroupées sur une même fiche pour garder une lecture claire.
+        </p>
+      </div>
+
+      <div class="run-toolbar">
+        <button class="run-filter active" data-filter="all">TOUS</button>
+        <button class="run-filter" data-filter="3d">3D</button>
+        <button class="run-filter" data-filter="2d">2D</button>
+        <button class="run-filter" data-filter="metroidvania">METROIDVANIA</button>
+      </div>
+
+      <!--
+        IMAGES DES JEUX : placez vos images dans ressources/speedruns/
+        avec les noms utilisés dans les balises <img> ci-dessous.
+        LIENS DES RUNS : remplacez href="#" par le lien YouTube/Speedrun.com/Twitch correspondant.
+      -->
+      <div class="run-grid">
+        <article class="run-card" data-tags="3d">
+          <div class="run-art mario64-art"><img src="ressources/speedruns/super-mario-64.jpg" alt="Super Mario 64" loading="lazy"><span>SM64</span></div>
+          <div class="run-content">
+            <span class="run-type">SUPER MARIO 64</span>
+            <h3>Super Mario 64</h3>
+            <div class="run-times">
+              <a href="https://www.twitch.tv/videos/2334548167" class="run-row-link"><span>16 Stars%</span><strong>18:30 ↗</strong></a>
+              <a href="https://www.youtube.com/watch?v=Pmy-gC-2ddg" class="run-row-link"><span>1 Star%</span><strong>09:46 ↗</strong></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="run-card" data-tags="3d">
+          <div class="run-art galaxy-art"><img src="ressources/speedruns/super-mario-galaxy.jpg" alt="Super Mario Galaxy" loading="lazy"><span>GALAXY</span></div>
+          <div class="run-content">
+            <span class="run-type">SUPER MARIO GALAXY</span>
+            <h3>Super Mario Galaxy</h3>
+            <div class="run-times">
+              <a href="https://www.youtube.com/watch?v=en0kpqv05eg" class="run-row-link"><span>Any%</span><strong>2:52:42 ↗</strong></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="run-card" data-tags="2d metroidvania">
+          <div class="run-art hollow-art"><img src="ressources/speedruns/hollow-knight.jpg" alt="Hollow Knight" loading="lazy"><span>HK</span></div>
+          <div class="run-content">
+            <span class="run-type">HOLLOW KNIGHT</span>
+            <h3>Hollow Knight</h3>
+            <div class="run-times">
+              <a href="https://www.twitch.tv/videos/1636317647" class="run-row-link"><span>Any%</span><strong>51:05 ↗</strong></a>
+              <a href="https://www.twitch.tv/videos/2180805382" class="run-row-link"><span>TrueEnding%</span><strong>1:56:32 ↗</strong></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="run-card" data-tags="2d">
+          <div class="run-art celeste-art"><img src="ressources/speedruns/celeste.jpg" alt="Celeste" loading="lazy"><span>CELESTE</span></div>
+          <div class="run-content">
+            <span class="run-type">CELESTE</span>
+            <h3>Celeste</h3>
+            <div class="run-times">
+              <a href="https://www.twitch.tv/videos/2326430047" class="run-row-link"><span>Any%</span><strong>44:36.718 ↗</strong></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="run-card" data-tags="2d metroidvania">
+          <div class="run-art silk-art"><img src="ressources/speedruns/hollow-knight-silksong.jpg" alt="Hollow Knight: Silksong" loading="lazy"><span>SILKSONG</span></div>
+          <div class="run-content">
+            <span class="run-type">HOLLOW KNIGHT: SILKSONG</span>
+            <h3>Hollow Knight: Silksong</h3>
+            <div class="run-times">
+              <a href="https://www.youtube.com/watch?v=I8oDB225sro" class="run-row-link"><span>Any%</span><strong>1:31:00 ↗</strong></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="run-card" data-tags="2d metroidvania">
+          <div class="run-art lilies-art"><img src="ressources/speedruns/ender-lilies.jpg" alt="ENDER LILIES: Quietus of the Knights" loading="lazy"><span>ENDER LILIES</span></div>
+          <div class="run-content">
+            <span class="run-type">ENDER LILIES</span>
+            <h3>Quietus of the Knights</h3>
+            <div class="run-times">
+              <a href="https://www.twitch.tv/videos/2284957812" class="run-row-link"><span>Ending A%</span><strong>23:41 ↗</strong></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="run-card" data-tags="3d">
+          <div class="run-art zelda-art"><img src="ressources/speedruns/zelda-echoes-of-wisdom.jpg" alt="The Legend of Zelda: Echoes of Wisdom" loading="lazy"><span>EOF</span></div>
+          <div class="run-content">
+            <span class="run-type">THE LEGEND OF ZELDA</span>
+            <h3>Echoes of Wisdom</h3>
+            <div class="run-times">
+              <a href="https://www.youtube.com/watch?v=a-XhZ4KpKKk" class="run-row-link"><span>Any% Restricted</span><strong>50:28 ↗</strong></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section casts-section" id="casts">
+      <div class="section-label">02 / MES CASTS</div>
+      <div class="section-heading">
+        <h2>Quand le run<br>devient <span>spectacle.</span></h2>
+        <p>
+          Des runs que j'ai eu le plaisir de caster et de mettre en scène,
+          sur des événements majeurs de la communauté speedrun.
+        </p>
+      </div>
+
+      <div class="cast-list">
+        <article class="cast-card">
+          <div class="cast-number">01</div>
+          <div class="cast-main">
+            <span class="cast-game">BZZZT</span>
+            <h3>BZZZT <small>Any%</small></h3>
+            <div class="cast-details"><span>RUNNER <b>Radion</b></span><span class="event-badge">SPEEDONS 4</span></div>
+          </div>
+          <div class="cast-time"><span>TIME</span><strong>22:07</strong></div>
+          <a class="cast-arrow" href="https://www.youtube.com/watch?v=tUwv9pEwfLk" aria-label="Voir le cast BZZZT">↗</a>
+        </article>
+
+        <article class="cast-card">
+          <div class="cast-number">02</div>
+          <div class="cast-main">
+            <span class="cast-game">PATRICK'S PARABOX</span>
+            <h3>Patrick's Parabox <small>Any%</small></h3>
+            <div class="cast-details"><span>RUNNER <b>Rastats</b></span><span class="event-badge">SPEEDONS 5</span></div>
+          </div>
+          <div class="cast-time"><span>TIME</span><strong>32:31</strong></div>
+          <a class="cast-arrow" href="https://www.youtube.com/watch?v=qgu8iL9-xBM" aria-label="Voir le cast Patrick's Parabox">↗</a>
+        </article>
+
+        <article class="cast-card">
+          <div class="cast-number">03</div>
+          <div class="cast-main">
+            <span class="cast-game">HOLLOW KNIGHT</span>
+            <h3>Hollow Knight <small>TrueEnding%</small></h3>
+            <div class="cast-details"><span>RUNNER <b>Vysualstv VS Stratus</b></span><span class="event-badge">SGDQ 2024</span></div>
+          </div>
+          <div class="cast-time"><span>TIME</span><strong>1:18:30</strong></div>
+          <a class="cast-arrow" href="https://www.youtube.com/watch?v=F_A6JzwJVvg" aria-label="Voir le cast Hollow Knight">↗</a>
+        </article>
+
+        <article class="cast-card">
+          <div class="cast-number">04</div>
+          <div class="cast-main">
+            <span class="cast-game">SUPER MARIO GALAXY</span>
+            <h3>Super Mario Galaxy <small>Any% Luigi</small></h3>
+            <div class="cast-details"><span>RUNNER <b>Jhay</b></span><span class="event-badge">AGDQ 2026</span></div>
+          </div>
+          <div class="cast-time"><span>TIME</span><strong>2:16:53</strong></div>
+          <a class="cast-arrow" href="https://www.youtube.com/watch?v=IQ46Wzj0oys" aria-label="Voir le cast Super Mario Galaxy">↗</a>
+        </article>
+
+        <article class="cast-card">
+          <div class="cast-number">05</div>
+          <div class="cast-main">
+            <span class="cast-game">SONIC × SHADOW GENERATIONS</span>
+            <h3>Sonic × Shadow Generations <small>ACT%</small></h3>
+            <div class="cast-details"><span>RUNNER <b>SnackPigeon</b></span><span class="event-badge">UKSG RED 2026</span></div>
+          </div>
+          <div class="cast-time"><span>TIME</span><strong>1:19:54</strong></div>
+          <a class="cast-arrow" href="https://www.youtube.com/watch?v=4SaveTtzUrw" aria-label="Voir le cast Sonic × Shadow Generations">↗</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand"><span class="brand-mark">i</span><span>TaKu</span><small>Twitch</small></div>
+    <p>© <span id="year"></span> iTaKuTwitch — Tous droits réservés.</p>
+    <a href="#top">Retour en haut ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    document.querySelectorAll('.run-filter').forEach(button => {
+      button.addEventListener('click', () => {
+        document.querySelectorAll('.run-filter').forEach(b => b.classList.remove('active'));
+        button.classList.add('active');
+        const filter = button.dataset.filter;
+        document.querySelectorAll('.run-card').forEach(card => {
+          card.style.display = filter === 'all' || card.dataset.tags.includes(filter) ? '' : 'none';
+        });
+      });
+    });
+  </script>
+</body>
+</html>
