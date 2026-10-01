@@ -19,3 +19,6 @@ Le Linktree public associé à @itaku référence Instagram, Threads, YouTube, T
 
 ## Réseaux
 Les réseaux affichés dans le site reprennent les entrées visibles sur le Linktree fourni par l'utilisateur : Twitch, TikTok, YouTube, Twitter, Discord Server et Un p’tit don ?. Les boutons renvoient au Linktree `https://linktr.ee/itakutwitch`.
+
+
+DA testée : iTaKu Night Studio — #0B1018, #365683, #8FB3E8, #D7E5FA, #D47A6A.

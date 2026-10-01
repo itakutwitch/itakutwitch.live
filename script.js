@@ -6,7 +6,7 @@ document.querySelectorAll('.nav a').forEach(a => {
   a.addEventListener('click', () => nav.classList.remove('menu-open'));
 });
 
-document.getElementById('year').textContent = new Date().getFullYear();
+const year = document.getElementById('year'); if (year) year.textContent = new Date().getFullYear();
 
 const reveal = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
@@ -17,7 +17,7 @@ const reveal = new IntersectionObserver((entries) => {
   });
 }, {threshold: .12});
 
-document.querySelectorAll('.section, .video-card, .info-card').forEach(el => {
+document.querySelectorAll('.section, .video-card, .info-card, .run-card, .cast-card').forEach(el => {
   el.style.opacity = '0';
   el.style.transform = 'translateY(20px)';
   el.style.transition = 'opacity .7s ease, transform .7s ease';
